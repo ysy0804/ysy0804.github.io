@@ -1,11 +1,10 @@
 # Setup
 title: "尹思源"
-description: 
+description: "风雨中拥抱自由"
 url: https://vszhub.github.io
-avatar: /avatar.jpeg
-paginate: 5
+avatar: /pofile.jpg
 permalink: pretty
-cover_image: /bg.jpeg
+cover_image: /bk2.jpg
 
 # Gems
 plugins:
