@@ -1,85 +1,59 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+  <title>我的科研项目</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
 
-{% include home-header.html %}
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
 
-<h1>{{ page.title }}</h1>
+    .project {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
 
-{% comment %} Check the type of archive {% endcomment %}
-{%- if page.type == 'categories' -%}
-  {%- assign taxonomies = site.categories -%}
-{%- elsif page.type == 'tags' -%}
-  {%- assign taxonomies = site.tags -%}
-{%- else -%}
-  {%- assign taxonomies = none -%}
-{%- endif -%}
+    .project h2 {
+      color: #333;
+      margin-top: 0;
+    }
 
-{% comment %} Calculate the max count of taxonomies {% endcomment %}
-{%- assign max_count = 0 -%}
-{%- for taxonomy in taxonomies -%}
-  {%- assign posts = taxonomy[1] -%}
-  {%- if posts.size > max_count -%}
-    {%- assign max_count = posts.size -%}
-  {%- endif -%}
-{%- endfor -%}
+    .project p {
+      color: #666;
+    }
 
-<div class="taxonomies-wrapper">
-  <ul class="taxonomies">
-    {%- for i in (1..max_count) reversed -%}
-      {%- for taxonomy in taxonomies -%}
-        {%- assign taxonomy_name = taxonomy[0] -%}
-        {%- assign slugified_taxonomy_name = taxonomy_name | slugify -%}
-        {%- assign posts = taxonomy[1] -%}
-        {%- if posts.size == i -%}
-          <li>
-            {%- capture link -%}{{ page.permalink }}#{{ slugified_taxonomy_name }}{%- endcapture -%}
-            <a class="taxonomy" href="{{ link | relative_url }}">
-              <span>
-                {%- if page.type == 'tags' -%}
-                  {{ slugified_taxonomy_name }}
-                {%- else -%}
-                  {{ taxonomy_name }}
-                {%- endif -%}
-              </span>
-              <span class="taxonomy-count">{{ posts.size }}</span>
-            </a>
-          </li>
-        {%- endif -%}
-      {%- endfor -%}
-    {%- endfor -%}
-  </ul>
-</div>
+    .project .dates {
+      color: #999;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>我的科研项目</h1>
 
-{% comment %} Show posts by taxonomy {% endcomment %}
-{%- for i in (1..max_count) reversed -%}
-  {%- for taxonomy in taxonomies -%}
-    {%- assign taxonomy_name = taxonomy[0] -%}
-    {%- assign slugified_taxonomy_name = taxonomy_name | slugify -%}
-    {%- assign posts = taxonomy[1] -%}
-    {%- if posts.size == i -%}
-      <h2 id="{{ slugified_taxonomy_name }}">
-        {%- if page.type == 'tags' -%}
-          {{ slugified_taxonomy_name }}
-        {%- else -%}
-          {{ taxonomy_name }}
-        {%- endif -%}
-      </h2>
-      <ul class="post-list-by-taxonomy">
-        {%- for post in posts -%}
-          <li>
-            <time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time> &raquo; <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          </li>
-        {%- endfor -%}
-      </ul>
-      <a href="#" onclick="backToTop()" class="back-to-top">Top &#8648;</a>
-    {%- endif -%}
-  {%- endfor -%}
-{%- endfor -%}
+  <div class="project">
+    <h2>项目标题 1</h2>
+    <p class="dates">2020年1月 - 2021年5月</p>
+    <p>项目描述 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae justo in nisl placerat tincidunt. Curabitur maximus, enim vel dapibus tempus, augue mi rutrum mauris, at eleifend purus mauris ac velit.</p>
+  </div>
 
-<script>
-  function backToTop() {
-    const main = document.getElementById("site-main");
-    main.scrollTop = 0;
-  }
-</script>
+  <div class="project">
+    <h2>项目标题 2</h2>
+    <p class="dates">2019年3月 - 2020年12月</p>
+    <p>项目描述 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae justo in nisl placerat tincidunt. Curabitur maximus, enimvel dapibus tempus, augue mi rutrum mauris, at eleifend purus mauris ac velit.</p>
+  </div>
+
+  <!-- 添加更多项目 -->
+
+</body>
+</html>
