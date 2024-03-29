@@ -5,31 +5,52 @@ layout: default
 {% include home-header.html %}
 
 <div class="posts">
-  {% for post in paginator.posts %}
   <section class="post-entry">
     <h2 class="post-title">
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
+      <a href="/not-pure-poole/2020/10/02/testing-mathjax/">
+        Testing MathJax
       </a>
     </h2>
 
     <div class="post-meta">
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
-      {%- if jekyll.environment == "production" and site.disqus -%}
-        <span> • </span>
-        <a class="comment-count" href="{{ post.url | relative_url }}#disqus_thread">
-          <span class="disqus-comment-count" data-disqus-url="{{ post.url | absolute_url }}"></span>
-        </a>
-      {%- endif -%}
-    </div>
+      <time datetime="2020-10-02T07:32:00+00:00">02 Oct 2020</time></div>
 
-    <p>{{ post.excerpt | strip_html }}</p>
+    <p>Not Pure Poole supports MathJax. You can enable it on a page by setting math: true in the front matter.
+
+</p>
   </section>
-  {% endfor %}
-  {%- if jekyll.environment == "production" and site.disqus -%}
-    <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
-  {%- endif -%}
-</div>
+  
+  <section class="post-entry">
+    <h2 class="post-title">
+      <a href="/not-pure-poole/2020/10/01/releasing-not-pure-poole-v0-1-0/">
+        Releasing Not Pure Poole v0.1.0
+      </a>
+    </h2>
+
+    <div class="post-meta">
+      <time datetime="2020-10-01T05:56:00+00:00">01 Oct 2020</time></div>
+
+    <p>The Jekyll theme Not Pure Poole v0.1.0 was released!
+
+</p>
+  </section>
+  
+  <section class="post-entry">
+    <h2 class="post-title">
+      <a href="/not-pure-poole/2020/09/29/welcome-to-not-pure-poole/">
+        Welcome to Not Pure Poole
+      </a>
+    </h2>
+
+    <div class="post-meta">
+      <time datetime="2020-09-29T15:18:00+00:00">29 Sep 2020</time></div>
+
+    <p>Welcome to Not Pure Poole! This is an example post to show the layout.
+
+</p>
+  </section>
+  </div>
+
 
 <div class="pagination">
   {% if paginator.next_page %}
