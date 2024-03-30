@@ -7,7 +7,7 @@ title: About
 
 2001年8月4日出生于辽宁省鞍山市海城市，中国矿业大学计算机科学与技术本科在读。
 
-![](/timeline.jpg){: .align-center}{: width="626px" height="900px"}
+![](/timeline.jpg){: .align-center}{: width="200px" height="440px"}
 
 
 
