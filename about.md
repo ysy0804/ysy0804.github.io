@@ -5,7 +5,7 @@ title: About
 
 ## 个人简介
 
-2001年8月4日出生于辽宁省鞍山市海城市，中国矿业大学计算机科学与技术本科在读。
+2001年8月4日出生于辽宁省鞍山市海城市，[中国矿业大学](https://www.cumt.edu.cn/)计算机科学与技术本科在读。
 
 ![](/timeline.jpg){: .align-center}{: width="320px" height="380px"}
 
@@ -36,6 +36,6 @@ title: About
 - 获得阿里巴巴低代码开发师初级认证、华为鲲鹏微认证 1 项。
 
 
-
+邮箱:  ysy010804@163.com
 CSDN博客：[_坐看云起时_-CSDN博客](https://blog.csdn.net/qq_53162179?spm=1010.2135.3001.5343)
 
