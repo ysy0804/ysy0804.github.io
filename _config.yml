@@ -4,7 +4,7 @@ description: "风雨中拥抱自由"
 url: https://vszhub.github.io
 avatar: /pofile.jpg
 permalink: pretty
-cover_image: /bg.jpeg
+cover_image: /bk2.jpg
 
 # Gems
 plugins:
@@ -53,6 +53,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: Siyuan Yin
+  url: https://github.com/ysy0804
+  email: ysy010804@163.com
