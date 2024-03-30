@@ -8,7 +8,8 @@
   // padding-left: var(--spacer);
   // padding-right: var(--spacer);
   padding-left: var(--small-spacer); /* 修改为较小的左内边距 */
-  // padding-right: var(--small-spacer); /* 修改为较小的右内边距 */
+  margin-left: auto; /* 添加此行代码 */
+  margin-right: 0; /* 添加此行代码 */
 }
 
 .toc-title {
