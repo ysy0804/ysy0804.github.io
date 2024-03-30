@@ -1,11 +1,13 @@
 ---
 layout: default
+paginate: true
 ---
+
 
 {% include home-header.html %}
 <!-- 获取文章列表 -->
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
   <section class="post-entry">
 <!--  文章标题的标题级别为h2 -->
     
