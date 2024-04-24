@@ -36,6 +36,12 @@ title: About
 - 获得阿里巴巴低代码开发师初级认证、华为鲲鹏微认证 1 项。
 
 
+## What I 've been doing recently
+1.毕业设计 ————>  基于移动群智感知的网络信号图谱构建系统
+进度：撰写论文中
+
+2.学习java编程语言
+
 邮箱:  ysy010804@163.com
 
 CSDN博客：[_坐看云起时_-CSDN博客](https://blog.csdn.net/qq_53162179?spm=1010.2135.3001.5343)
