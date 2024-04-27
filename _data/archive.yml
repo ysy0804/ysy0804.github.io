@@ -1,9 +1,9 @@
 - type: dates
-  title: Blogs
+  title: Dates
   url: /dates/
 #- type: categories
 #  title: Categories
 #  url: /categories/
 - type: tags
-  title: Projects
+  title: Research
   url: /tags/
