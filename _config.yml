@@ -4,7 +4,7 @@ description: undergraduate of CUMT
 # url: https://vszhub.github.io
 avatar: /pofile.jpg
 permalink: pretty
-cover_image: /bk2.jpg
+cover_image: /bg2.jpg
 paginate: 5  # 一个页面存放/显示多少篇文章
 paginate_path: /page:num/
 
