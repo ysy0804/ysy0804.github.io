@@ -7,6 +7,8 @@ title: About
 
 2001年8月4日出生于辽宁省鞍山市海城市，[中国矿业大学](https://www.cumt.edu.cn/)计算机科学与技术本科在读。
 
+研究方向：**移动群智感知**
+
 ![](/timeline.jpg){: .align-center}{: width="320px" height="380px"}
 
 
@@ -51,9 +53,7 @@ title: About
 
 
 ## What I 've been doing recently
-- 毕业设计 ————>  基于移动群智感知的网络信号图谱构建系统
-
-进度：答辩结束
+- 阅读文献
 
 
 
