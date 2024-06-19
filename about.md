@@ -5,11 +5,11 @@ title: About
 
 ## 个人简介
 
-2001年8月4日出生于辽宁省鞍山市海城市，[中国矿业大学](https://www.cumt.edu.cn/)计算机科学与技术本科在读。
+2001年8月4日出生于辽宁省鞍山市海城市，现就读于[中国矿业大学](https://www.cumt.edu.cn/)计算机科学与技术学院，软件工程硕士研究生在读。
 
 研究方向：**移动群智感知**
 
-![](/timeline.jpg){: .align-center}{: width="320px" height="380px"}
+![](/timeline.png){: .align-center}{: width="320px" height="380px"}
 
 
 
