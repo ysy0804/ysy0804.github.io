@@ -54,6 +54,7 @@ title: About
 
 ## What I 've been doing recently
 - 阅读文献
+- 学习C++
 
 
 
