@@ -51,7 +51,11 @@ title: About
 
 ## 学术经历
 
-**Siyuan Yin**, Haifeng Jiang, Chaogang Tang, Shuo Xiao, and Huaming Wu. MobiTask: A Federated Learning-Based Task Migration Strategy for Mobile Crowdsensing. ***IEEE Transactions on Computational Social Systems***, accept, 2025. (IF=4.9, CCF C，中科院 3区，JCR Q1区)
+**Siyuan Yin**, Haifeng Jiang, Chaogang Tang, Shuo Xiao, and Huaming Wu. MobiTask: A Federated Learning-Based Task Migration Strategy for Mobile Crowdsensing. ***IEEE Transactions on Computational Social Systems***, 已在线发表, 2025. (IF=4.9, CCF C，中科院 3区，JCR Q1区)
+
+[[MobiTask: A Federated Learning-Based Task Migration Strategy for Mobile Crowdsensing | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/document/11199392)]
+
+发明专利《一种去中心化联邦学习的断网矿山冲击地压预警方法》已受理
 
 
 
@@ -84,5 +88,5 @@ CSDN博客：[_坐看云起时_-CSDN博客](https://blog.csdn.net/qq_53162179?sp
 
 
 
-**本主页最近更新时间：2025.9.2**
+**本主页最近更新时间：2025.10.20**
 
