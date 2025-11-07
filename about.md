@@ -73,7 +73,8 @@ title: About
 
 
 ## What I 've been doing recently
-- 参与企业委托项目
+- 论文研究
+- 企业实践
 
 
 
@@ -83,5 +84,5 @@ CSDN博客：[_坐看云起时_-CSDN博客](https://blog.csdn.net/qq_53162179?sp
 
 
 
-**本主页最近更新时间：2025.10.29**
+**本主页最近更新时间：2025.11.7**
 
